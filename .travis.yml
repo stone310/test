@@ -19,8 +19,8 @@ after_script:
   - git config user.email "pom31000@163.com"
   - git add .
   - git commit -m "Update"
-  - git remote add origin git@github.com:stone310/test.git
-  - git push --force --quiet -u origin master
+  - git remote add master git@github.com:stone310/test.git
+  - git push --force --quiet -u master master
 # E: Build LifeCycle
 
 branches:
